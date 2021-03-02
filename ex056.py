@@ -1,4 +1,4 @@
-total = 0
+totalidade = 0
 mvelho = 0
 mulherv = 0
 for p in range(1, 5):
@@ -18,7 +18,7 @@ for p in range(1, 5):
     if sexo == 'F' and idade < 20:
         mulherv = mulherv + 1
 
-media = total / 4
+media = totalidade / 4
 print('''
 A média de idade do grupo é {:.2f}'''.format(media))
 if mvelho == 0:
