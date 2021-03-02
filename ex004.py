@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 a = input('digite algo:')
 print('\033[33mtipo primitivo:', '\033[34m', type(a), '\033[m')
 print('\033[33mé uma letra:\033[m', '\033[34m', a.isalpha(), '\033[m')
@@ -9,3 +10,16 @@ print('\033[33mestá todo em minusculo:', '\033[34m', a.islower(), '\033[34m')
 print('\033[33mpode ser impresso:', '\033[34m', a.isprintable(), '\033[m')
 print('\033[33mcontem só espaços:', '\033[34m', a.isspace(), '\033[m')
 print('\033[33mestá captalizada:', '\033[34m', a.istitle(), '\033[m')
+=======
+a = input('digite algo:')
+print('\033[33mtipo primitivo:', '\033[34m', type(a), '\033[m')
+print('\033[33mé uma letra:\033[m', '\033[34m', a.isalpha(), '\033[m')
+print('\033[33mé numérico:', '\033[34m', a.isalnum(), '\033[m')
+print('\033[33mé alfanumérico:', '\033[34m', a.isalnum(), '\033[m')
+print('\033[33mé digito:', '\033[34m', a.isdigit(), '\033[m')
+print('\033[33mestá todo em maiúsculo:', '\033[34m', a.isupper(), '\033[m')
+print('\033[33mestá todo em minusculo:', '\033[34m', a.islower(), '\033[34m')
+print('\033[33mpode ser impresso:', '\033[34m', a.isprintable(), '\033[m')
+print('\033[33mcontem só espaços:', '\033[34m', a.isspace(), '\033[m')
+print('\033[33mestá captalizada:', '\033[34m', a.istitle(), '\033[m')
+>>>>>>> 747ecd2a336283c5b07a0e67d31be4817f8cd3f4
