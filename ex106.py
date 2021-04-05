@@ -10,6 +10,8 @@ def escreva(m, cor=False):
     print(f' {m} ')
     print('═' * tam, end='')
     print('\033[m')
+
+
 while True:
     escreva('PyHelp', 'azu')
     fun = str(input('\033[1;37mFunção desejada >>> ')).lower().strip()
